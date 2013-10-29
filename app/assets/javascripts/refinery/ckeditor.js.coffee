@@ -20,8 +20,8 @@ $(window).load ->
     this.scrollLeft = (image_width - box_width) / 2
     this.scrollTop = (image_height - box_height) / 2
 
-$ ->
-  $(".rightbar").tabs()
+#$ ->
+#  $(".rightbar").tabs()
 
 window.submit_and_continue = (e, redirect_to) ->
   for key, instance of CKEDITOR.instances
